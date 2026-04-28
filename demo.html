@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <form action="https://www.youtube.com/results">
+        <div>
+            <label for="query" style="color: blue;">Введите запрос</label>
+            <input 
+                style="color: brown; background-color: blueviolet;"
+                type="text" 
+                placeholder="Введите запрося" 
+                id="query" 
+                name="search_query"
+            />
+        </div>
+        <button type="submit">Поиск</button>
+        <button type="reset">Сброс</button>
+        <div>
+            <label for="agree">Согласие</label>
+            <input type="checkbox" name="agree" id="agree">
+        </div>
+        <div>
+            <input type="radio" name="search" id="all" value="all">
+            <label for="all">Поиск везде</label>
+        </div>
+        <div>
+            <input type="radio" name="search" id="youtube" value="youtube">
+            <label for="youtube">Поиск на youtube</label>
+        </div>
+    </form>
+</body>
+</html>
