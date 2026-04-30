@@ -7,31 +7,31 @@
     <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-    <form action="https://www.youtube.com/results">
-        <div>
-            <label for="query" style="color: blue;">Введите запрос</label>
-            <input 
-                style="color: brown; background-color: blueviolet;"
-                type="text" 
-                placeholder="Введите запрося" 
-                id="query" 
-                name="search_query"
-            />
-        </div>
-        <button type="submit">Поиск</button>
-        <button type="reset">Сброс</button>
-        <div>
-            <label for="agree">Согласие</label>
-            <input type="checkbox" name="agree" id="agree">
-        </div>
-        <div>
-            <input type="radio" name="search" id="all" value="all">
-            <label for="all">Поиск везде</label>
-        </div>
-        <div>
-            <input type="radio" name="search" id="youtube" value="youtube">
-            <label for="youtube">Поиск на youtube</label>
-        </div>
-    </form>
+    <main>
+        <h1>Свяжитесь с нами</h1>
+        <form action="#">
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Введите E-mail" required >
+
+            </div>
+            <div>
+                <label for="telegram">Telegram</label>
+                <input type="text" name="telegram" id="telegram" placeholder="Введите Telegram">
+            </div>
+            <div>
+                <label for="topic">Тема*</label>
+                <select name="topic" id="topic">
+                    <option value="courses">Приобретение курсов</option>
+                    <option value="feedback">Обратная связь</option>
+                </select> 
+            </div>
+            <div>
+                <label for="comment">Комментарий</label>
+                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            </div>
+            <button>Отправить</button>
+        </form>
+    </main>
 </body>
 </html>
