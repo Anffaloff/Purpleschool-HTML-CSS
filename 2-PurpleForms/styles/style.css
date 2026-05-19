@@ -1,5 +1,5 @@
-main {
-    background: #1E1F29;
+* {
+    background-color: #f01fcd;
 }
 
 h1 {
@@ -18,4 +18,8 @@ label {
 button {
     background: #6C38CC;
     color: #FAFAFA;
+}
+
+input[type="email"] {
+    background-color: aqua;
 }

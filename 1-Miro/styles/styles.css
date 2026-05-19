@@ -1,0 +1,19 @@
+* {
+    background-color: aqua;
+}
+#heroButton {
+    background-color: #4262FF;
+    color: #FFFFFF;
+}
+.link {
+    color: #4262FF;
+    text-decoration: underline;
+}
+h1 {
+    font: 400 48px Roboto;
+    color: #050038;
+}
+p {
+    font: 400 18px Roboto;
+    color: #05003899;
+}
