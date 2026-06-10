@@ -9,11 +9,49 @@
     color: #4262FF;
     text-decoration: underline;
 }
-h1 {
-    font: 400 48px Roboto;
+h1, h2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 1px;
     color: #050038;
 }
-p {
-    font: 400 18px Roboto;
-    color: #05003899;
+
+p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.heroForm + p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #050038
+}
+.heroText {
+    color: #050038;
+}
+
+.sectionText {
+    color: #05003899
+}
+
+header a {
+font-family: Roboto;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-decoration: none;
+color: #050038;
 }
