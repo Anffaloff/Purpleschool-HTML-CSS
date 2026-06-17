@@ -1,13 +1,27 @@
 * {
     background-color: aqua;
 }
+
 #heroButton {
     background-color: #4262FF;
     color: #FFFFFF;
 }
+
+#heroButton:active {
+    color:#ff424b
+}
+
+.heroForm input:focus {
+    background-color: #ee790b;
+}
+
 .link {
     color: #4262FF;
     text-decoration: underline;
+}
+
+.link:hover {
+    color: #ff424b;
 }
 h1, h2 {
     font-family: Roboto;
@@ -54,4 +68,8 @@ line-height: 24px;
 letter-spacing: 0%;
 text-decoration: none;
 color: #050038;
+}
+
+.sectionList {
+    list-style-image: url('/1-Miro/img/sectionList.svg');
 }
