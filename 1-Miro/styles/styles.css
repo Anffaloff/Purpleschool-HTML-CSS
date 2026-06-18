@@ -1,5 +1,18 @@
-* {
-    background-color: aqua;
+body {
+    margin: 0;
+}
+
+nav {
+    padding: 33px 50px;
+    border-bottom: solid 1px #F0F0F0;
+    margin-bottom: 60px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
 }
 
 #heroButton {
@@ -23,6 +36,11 @@
 .link:hover {
     color: #ff424b;
 }
+
+h1 {
+    margin: 0 0 17px 0;
+}
+
 h1, h2 {
     font-family: Roboto;
     font-weight: 400;
@@ -49,10 +67,31 @@ p{
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0%;
-    color: #050038
+    color: #050038;
+    margin-bottom: 8px 0 52px 0;
 }
+
+.heroForm input {
+    border-radius: 32px;
+    border: 1px solid #9B99AF; 
+    height: 38px;
+    padding: 5px 10px; 
+}
+
+.heroForm button {
+    border-radius: 32px;
+    border: 1px solid #4262FF;
+    height: 48px;
+    padding: 10px 20px;
+}
+
+.heroForm {
+   
+}
+
 .heroText {
     color: #050038;
+    margin: 0 0 55px 0;
 }
 
 .sectionText {
